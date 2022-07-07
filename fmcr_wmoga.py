@@ -442,5 +442,5 @@ for i,j in enumerate(c):
 open_s,close_s=F_sector_list(f_family)
 print("routes\n",f_family)
 print("Cost:",F_cost(open_s,close_s,f_family))
-print("Open Repositories:",open_s)
+print("Open Sectors:",open_s)
 print("Time Elapsed (s):",int(time.time()-s_t))
